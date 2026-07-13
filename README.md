@@ -16,7 +16,7 @@ brew info --cask sheawinkler/contextlattice/contextlattice
 brew fetch --cask sheawinkler/contextlattice/contextlattice
 ```
 
-ContextLattice itself still runs through Docker Compose. The cask installs the macOS launcher DMG, which bootstraps the local repo, runs `gmake quickstart`, installs global agent helpers, and exposes the runtime proof command:
+ContextLattice itself runs through Docker Compose. The cask installs the macOS launcher DMG with the exact checksummed public release payload, runs `gmake quickstart`, installs global agent helpers, and exposes the runtime proof command:
 
 ```bash
 contextlattice_agent_runtime_proof --pretty

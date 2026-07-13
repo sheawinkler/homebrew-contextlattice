@@ -1,6 +1,6 @@
 cask "contextlattice" do
-  version "3.10.2"
-  sha256 "1a51ff87d28acbc5dc019a83bb66beb903f578178de4153b0bb723dea2b139f5"
+  version "3.17.0"
+  sha256 "e2c8c2cac61a9a24a73c3b10115190e0b88020d18d18f5af5c70d5b8fc0dabeb"
 
   url "https://github.com/sheawinkler/ContextLattice/releases/download/v#{version}/ContextLattice-macOS-universal.dmg",
       verified: "github.com/sheawinkler/ContextLattice/"
