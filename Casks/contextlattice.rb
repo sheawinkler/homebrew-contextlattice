@@ -1,11 +1,11 @@
 cask "contextlattice" do
-  version "3.17.2"
-  sha256 "88d2e4cc6dbe76c21e2f1016101f03668788a70976c3376b76f1eaba5e4806d0"
+  version "4.0.2"
+  sha256 "68be1916a03cf6e216153213eda58ae16e29bb6e88676b5ae4bc9c5ab0d6b5bc"
 
   url "https://github.com/sheawinkler/ContextLattice/releases/download/v#{version}/ContextLattice-macOS-universal.dmg",
       verified: "github.com/sheawinkler/ContextLattice/"
   name "ContextLattice"
-  desc "Local-first memory infrastructure for AI agents"
+  desc "Local-first intelligence layer for durable AI agent continuity"
   homepage "https://contextlattice.io/"
 
   livecheck do
